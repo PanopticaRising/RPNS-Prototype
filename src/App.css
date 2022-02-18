@@ -1,3 +1,6 @@
+@import '~@trussworks/react-uswds/lib/uswds.css';
+@import '~@trussworks/react-uswds/lib/index.css';
+
 .App {
   text-align: center;
 }
@@ -32,7 +35,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-logo {
+  position: relative;
+}
+
+.header-div,
+.form-div {
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
+  display: inline-block;
+  vertical-align: bottom;
 }
