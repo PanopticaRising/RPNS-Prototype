@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './Seal_of_New_York_City_BW.svg.png';
 import './App.css';
 import { Form, Button, Header, GovBanner, Fieldset, ErrorMessage, Alert } from '@trussworks/react-uswds';
 import { SubmitHandler, useForm } from "react-hook-form";
@@ -57,7 +57,7 @@ function App() {
     <GovBanner></GovBanner>
     <Header>
       <div className='header-div'>
-        <img src={logo} alt='logo' height={'100rem'} /><h1 className='header-text'>Department for the Protection of Pets</h1>
+        <img src={logo} className='header-logo' alt='logo' height={'100rem'} /><h1 className='header-text'>Department for the Protection of Pets</h1>
       </div>
     </Header>
     <div className='form-div'>
