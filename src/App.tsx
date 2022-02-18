@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Form, TextInput, Button, Header, GovBanner, Label, Fieldset, ErrorMessage, Alert } from '@trussworks/react-uswds';
+import { Form, Button, Header, GovBanner, Fieldset, ErrorMessage, Alert } from '@trussworks/react-uswds';
 import { SubmitHandler, useForm } from "react-hook-form";
 import axios from 'axios';
 import { Input, TelInput } from './FormHelpers';
@@ -20,7 +20,7 @@ interface AlertMsg {
 }
 
 function App() {
-  const { register, handleSubmit, formState: { errors, isSubmitted, isSubmitSuccessful } } = useForm<SignupOptions>();
+  const { register, handleSubmit, formState: { errors } } = useForm<SignupOptions>();
   const [alertMsg, setAlertMsg] = useState<AlertMsg>();
 
   const onSubmit: SubmitHandler<SignupOptions> = async (data) => {

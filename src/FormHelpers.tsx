@@ -1,6 +1,6 @@
-import { Form, TextInput, Button, Header, GovBanner, Label, Fieldset, ErrorMessage, InputPrefix, FormGroup } from '@trussworks/react-uswds';
+import { TextInput, Label, InputPrefix, FormGroup } from '@trussworks/react-uswds';
 import { TextInputProps } from '@trussworks/react-uswds/lib/components/forms/TextInput/TextInput';
-import { FieldValues, UseFormRegister } from 'react-hook-form';
+import { UseFormRegister } from 'react-hook-form';
 import { SignupOptions } from './App';
 
 interface InputProps {
