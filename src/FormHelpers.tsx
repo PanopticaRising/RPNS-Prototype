@@ -30,7 +30,7 @@ export const TelInput = ({ label, register, type, required, name }: InputProps) 
             <Label htmlFor={name}>{label}</Label>
             <div className="usa-input-group">
                 <InputPrefix>+1</InputPrefix>
-                <TextInput id={name} type={type} inputRef={ref} {...rest} />
+                <TextInput id={name} type={type} inputMode={'tel'} inputRef={ref} {...rest} />
             </div>
         </FormGroup>
     )

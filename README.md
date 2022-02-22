@@ -13,5 +13,6 @@ npm start
 
 # To start the Flask application. 
 cd mocks/server
+pip install -r requirements.txt
 flask run
 ```

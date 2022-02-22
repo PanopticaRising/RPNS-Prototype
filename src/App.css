@@ -45,6 +45,11 @@
   margin-right: 12px;
 }
 
+.usa-header {
+  background-color: lightblue;
+  padding: 1%;
+}
+
 .header-div,
 .form-div {
   display: flex;
